@@ -1,0 +1,291 @@
+#----------------------------------------
+# JasperGold Version Info
+# tool      : JasperGold 2018.03
+# platform  : Linux 3.10.0-693.el7.x86_64
+# version   : 2018.03p001 64 bits
+# build date: 2018.04.24 18:13:05 PDT
+#----------------------------------------
+# started Sun Apr 23 12:31:09 CST 2023
+# hostname  : vlsicad6
+# pid       : 9162
+# arguments : '-label' 'session_0' '-console' 'vlsicad6:38632' '-style' 'windows' '-data' 'AQAAADx/////AAAAAAAAA3oBAAAAEABMAE0AUgBFAE0ATwBWAEU=' '-proj' '/home/user2/vlsi23/vlsi2399/lab7/lab7_1/script/jgproject/sessionLogs/session_0' '-init' '-hidden' '/home/user2/vlsi23/vlsi2399/lab7/lab7_1/script/jgproject/.tmp/.initCmds.tcl' 'superlint.tcl'
+
+Any disclosure about the Cadence Design Systems software or its use
+model to any third party violates the written Non-Disclosure Agreement
+between Cadence Design Systems, Inc. and the customer.
+
+THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF
+CADENCE DESIGN SYSTEMS, INC. USE, DISCLOSURE, OR REPRODUCTION IS
+PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF CADENCE
+DESIGN SYSTEMS, INC.
+
+Copyright (C) 2000-2018 Cadence Design Systems, Inc. All Rights
+Reserved.  Unpublished -- rights reserved under the copyright laws of
+the United States.
+
+This product includes software developed by others and redistributed
+according to license agreement. See doc/third_party_readme.txt for
+further details.
+
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c) (1) (ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c) (1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+
+                          Cadence Design Systems, Inc. 
+                          2655 Seely Avenue
+                          San Jose, CA 95134
+                          Phone: 408.943.1234
+
+For technical assistance visit http://support.cadence.com.
+
+JasperGold Apps Analysis Session - /home/user2/vlsi23/vlsi2399/lab7/lab7_1/script/jgproject/sessionLogs/session_0
+
+INFO: successfully checked out licenses "jasper_interactive" and "jasper_dao".
+INFO: reading configuration file "/home/user2/vlsi23/vlsi2399/.config/jasper/jaspergold.conf".
+% check_superlint -init
+% ##------------------Don't touch----------------------##
+% clear -all
+INFO (IPF121): Cleared environment completely for new design analysis.
+% 
+% # Config rules
+% config_rtlds -rule -enable -domain { LINT }
+% config_rtlds -rule -disable -domain { DFT AUTO_FORMAL }
+% 
+% # ivcad2020_constrain //
+% config_rtlds -rule  -disable -category { NAMING }
+% config_rtlds -rule  -disable -tag { IDN_NR_CKYW IDN_NR_SVKY NAM_NR_REPU MOD_NR_PGAT MOD_NO_IPRG FLP_NR_MXCS REG_NR_RWRC INS_NR_INPR MOD_NS_GLGC OTP_NR_ASYA} 
+% # ivcad2020_constrain //
+% 
+% ##------------------Don't touch----------------------##
+% 
+% # import and elaborate design //
+% analyze -v2k ../rtl/top.v; ## modify your file name ##
+[-- (VERI-1482)] Analyzing Verilog file '../rtl/top.v'
+[INFO (VERI-1328)] ../rtl/top.v(2): analyzing included file '../rtl/../rtl/VEP.v'
+[INFO (VERI-1328)] ../rtl/top.v(3): analyzing included file '../rtl/../rtl/WSC.v'
+[INFO (VERI-1328)] ../rtl/../rtl/WSC.v(1): analyzing included file '../rtl/../rtl/../rtl/smaller_mux.v'
+[INFO (VERI-1328)] ../rtl/top.v(4): analyzing included file '../rtl/../rtl/controller.v'
+% elaborate -bbox true -top top; ## modify your top module ##
+INFO (ISW003): Top module name is "top".
+[INFO (VERI-1018)] ../rtl/top.v(6): compiling module 'top'
+[INFO (VERI-1018)] ../rtl/../rtl/controller.v(1): compiling module 'controller'
+[INFO (VERI-1018)] ../rtl/../rtl/WSC.v(2): compiling module 'WSC'
+[INFO (VERI-1018)] ../rtl/../rtl/../rtl/smaller_mux.v(1): compiling module 'smaller_mux'
+[INFO (VERI-1018)] ../rtl/../rtl/VEP.v(35): compiling module 'VEP'
+top
+[<embedded>] % 
+[<embedded>] % # Setup clock and reset
+[<embedded>] % clock clk; ## modify your clock name ##
+[<embedded>] % reset rst; ## modify your reset name ##
+INFO (IPM031): Clearing proof results of all properties.
+INFO (IRS006): Current reset condition is "rst".
+[<embedded>] % 
+[<embedded>] % # Extract checks
+[<embedded>] % check_superlint -extract
+INFO (ISL018): Started extraction of structural checks
+INFO (ISL016): Extracted 1 STRUCTURAL checks.
+INFO (ISL016): Extracted 21 BASIC LINT checks.
+22
+[<embedded>] % 
+[<embedded>] % include {superlint.tcl}
+%% ##------------------Don't touch----------------------##
+%% clear -all
+INFO (IPF121): Cleared environment completely for new design analysis.
+%% 
+%% # Config rules
+%% config_rtlds -rule -enable -domain { LINT }
+%% config_rtlds -rule -disable -domain { DFT AUTO_FORMAL }
+%% 
+%% # ivcad2020_constrain //
+%% config_rtlds -rule  -disable -category { NAMING }
+%% config_rtlds -rule  -disable -tag { IDN_NR_CKYW IDN_NR_SVKY NAM_NR_REPU MOD_NR_PGAT MOD_NO_IPRG FLP_NR_MXCS REG_NR_RWRC INS_NR_INPR MOD_NS_GLGC OTP_NR_ASYA} 
+%% # ivcad2020_constrain //
+%% 
+%% ##------------------Don't touch----------------------##
+%% 
+%% # import and elaborate design //
+%% analyze -v2k ../rtl/top.v; ## modify your file name ##
+[-- (VERI-1482)] Analyzing Verilog file '../rtl/top.v'
+[INFO (VERI-1328)] ../rtl/top.v(2): analyzing included file '../rtl/../rtl/VEP.v'
+[INFO (VERI-1328)] ../rtl/top.v(3): analyzing included file '../rtl/../rtl/WSC.v'
+[INFO (VERI-1328)] ../rtl/../rtl/WSC.v(1): analyzing included file '../rtl/../rtl/../rtl/smaller_mux.v'
+[INFO (VERI-1328)] ../rtl/top.v(4): analyzing included file '../rtl/../rtl/controller.v'
+%% elaborate -bbox true -top top; ## modify your top module ##
+INFO (ISW003): Top module name is "top".
+[INFO (VERI-1018)] ../rtl/top.v(6): compiling module 'top'
+[INFO (VERI-1018)] ../rtl/../rtl/controller.v(1): compiling module 'controller'
+[INFO (VERI-1018)] ../rtl/../rtl/WSC.v(2): compiling module 'WSC'
+[INFO (VERI-1018)] ../rtl/../rtl/../rtl/smaller_mux.v(1): compiling module 'smaller_mux'
+[INFO (VERI-1018)] ../rtl/../rtl/VEP.v(35): compiling module 'VEP'
+INFO (INL003): Clearing all state information (assumes, stopats, etc.).
+top
+%% 
+%% # Setup clock and reset
+%% clock clk; ## modify your clock name ##
+%% reset rst; ## modify your reset name ##
+INFO (IPM031): Clearing proof results of all properties.
+INFO (IRS006): Current reset condition is "rst".
+%% 
+%% # Extract checks
+%% check_superlint -extract
+INFO (ISL018): Started extraction of structural checks
+INFO (ISL016): Extracted 1 STRUCTURAL checks.
+INFO (ISL016): Extracted 15 BASIC LINT checks.
+16
+%% 
+[<embedded>] % include {superlint.tcl}
+%% ##------------------Don't touch----------------------##
+%% clear -all
+INFO (IPF121): Cleared environment completely for new design analysis.
+%% 
+%% # Config rules
+%% config_rtlds -rule -enable -domain { LINT }
+%% config_rtlds -rule -disable -domain { DFT AUTO_FORMAL }
+%% 
+%% # ivcad2020_constrain //
+%% config_rtlds -rule  -disable -category { NAMING }
+%% config_rtlds -rule  -disable -tag { IDN_NR_CKYW IDN_NR_SVKY NAM_NR_REPU MOD_NR_PGAT MOD_NO_IPRG FLP_NR_MXCS REG_NR_RWRC INS_NR_INPR MOD_NS_GLGC OTP_NR_ASYA} 
+%% # ivcad2020_constrain //
+%% 
+%% ##------------------Don't touch----------------------##
+%% 
+%% # import and elaborate design //
+%% analyze -v2k ../rtl/top.v; ## modify your file name ##
+[-- (VERI-1482)] Analyzing Verilog file '../rtl/top.v'
+[INFO (VERI-1328)] ../rtl/top.v(2): analyzing included file '../rtl/../rtl/VEP.v'
+[ERROR (VERI-1137)] ../rtl/../rtl/VEP.v(190): syntax error near else
+[ERROR (VERI-2344)] ../rtl/../rtl/VEP.v(190): Verilog 2000 keyword else used in incorrect context
+[WARN (VERI-1988)] ../rtl/../rtl/VEP.v(195): empty statement in sequential block
+[ERROR (VERI-1072)] ../rtl/../rtl/VEP.v(210): module 'VEP' ignored due to previous errors
+[INFO (VERI-1328)] ../rtl/top.v(3): analyzing included file '../rtl/../rtl/WSC.v'
+[INFO (VERI-1328)] ../rtl/../rtl/WSC.v(1): analyzing included file '../rtl/../rtl/../rtl/smaller_mux.v'
+[ERROR (VERI-1072)] ../rtl/../rtl/../rtl/smaller_mux.v(10): module 'smaller_mux' ignored due to previous errors
+[ERROR (VERI-1072)] ../rtl/../rtl/WSC.v(119): module 'WSC' ignored due to previous errors
+[INFO (VERI-1328)] ../rtl/top.v(4): analyzing included file '../rtl/../rtl/controller.v'
+[ERROR (VERI-1072)] ../rtl/../rtl/controller.v(270): module 'controller' ignored due to previous errors
+[ERROR (VERI-1072)] ../rtl/top.v(130): module 'top' ignored due to previous errors
+Summary of errors detected:
+	[ERROR (VERI-1137)] ../rtl/../rtl/VEP.v(190): syntax error near else
+	[ERROR (VERI-2344)] ../rtl/../rtl/VEP.v(190): Verilog 2000 keyword else used in incorrect context
+	[ERROR (VERI-1072)] ../rtl/../rtl/VEP.v(210): module 'VEP' ignored due to previous errors
+	[ERROR (VERI-1072)] ../rtl/../rtl/../rtl/smaller_mux.v(10): module 'smaller_mux' ignored due to previous errors
+	[ERROR (VERI-1072)] ../rtl/../rtl/WSC.v(119): module 'WSC' ignored due to previous errors
+	[ERROR (VERI-1072)] ../rtl/../rtl/controller.v(270): module 'controller' ignored due to previous errors
+	[ERROR (VERI-1072)] ../rtl/top.v(130): module 'top' ignored due to previous errors
+ERROR at line 16 in file superlint.tcl, more info in Tcl-variable errorInfo
+ERROR (ENL034): 7 errors detected in the design file(s).
+
+% include {superlint.tcl}
+%% ##------------------Don't touch----------------------##
+%% clear -all
+INFO (IPF121): Cleared environment completely for new design analysis.
+%% 
+%% # Config rules
+%% config_rtlds -rule -enable -domain { LINT }
+%% config_rtlds -rule -disable -domain { DFT AUTO_FORMAL }
+%% 
+%% # ivcad2020_constrain //
+%% config_rtlds -rule  -disable -category { NAMING }
+%% config_rtlds -rule  -disable -tag { IDN_NR_CKYW IDN_NR_SVKY NAM_NR_REPU MOD_NR_PGAT MOD_NO_IPRG FLP_NR_MXCS REG_NR_RWRC INS_NR_INPR MOD_NS_GLGC OTP_NR_ASYA} 
+%% # ivcad2020_constrain //
+%% 
+%% ##------------------Don't touch----------------------##
+%% 
+%% # import and elaborate design //
+%% analyze -v2k ../rtl/top.v; ## modify your file name ##
+[-- (VERI-1482)] Analyzing Verilog file '../rtl/top.v'
+[INFO (VERI-1328)] ../rtl/top.v(2): analyzing included file '../rtl/../rtl/VEP.v'
+[INFO (VERI-1328)] ../rtl/top.v(3): analyzing included file '../rtl/../rtl/WSC.v'
+[INFO (VERI-1328)] ../rtl/../rtl/WSC.v(1): analyzing included file '../rtl/../rtl/../rtl/smaller_mux.v'
+[INFO (VERI-1328)] ../rtl/top.v(4): analyzing included file '../rtl/../rtl/controller.v'
+%% elaborate -bbox true -top top; ## modify your top module ##
+INFO (ISW003): Top module name is "top".
+[INFO (VERI-1018)] ../rtl/top.v(6): compiling module 'top'
+[INFO (VERI-1018)] ../rtl/../rtl/controller.v(1): compiling module 'controller'
+[INFO (VERI-1018)] ../rtl/../rtl/WSC.v(2): compiling module 'WSC'
+[INFO (VERI-1018)] ../rtl/../rtl/../rtl/smaller_mux.v(1): compiling module 'smaller_mux'
+[INFO (VERI-1018)] ../rtl/../rtl/VEP.v(35): compiling module 'VEP'
+INFO (INL003): Clearing all state information (assumes, stopats, etc.).
+top
+%% 
+%% # Setup clock and reset
+%% clock clk; ## modify your clock name ##
+%% reset rst; ## modify your reset name ##
+INFO (IPM031): Clearing proof results of all properties.
+INFO (IRS006): Current reset condition is "rst".
+%% 
+%% # Extract checks
+%% check_superlint -extract
+INFO (ISL018): Started extraction of structural checks
+INFO (ISL016): Extracted 1 STRUCTURAL checks.
+INFO (ISL016): Extracted 14 BASIC LINT checks.
+15
+%% 
+[<embedded>] % include {superlint.tcl}
+%% ##------------------Don't touch----------------------##
+%% clear -all
+INFO (IPF121): Cleared environment completely for new design analysis.
+%% 
+%% # Config rules
+%% config_rtlds -rule -enable -domain { LINT }
+%% config_rtlds -rule -disable -domain { DFT AUTO_FORMAL }
+%% 
+%% # ivcad2020_constrain //
+%% config_rtlds -rule  -disable -category { NAMING }
+%% config_rtlds -rule  -disable -tag { IDN_NR_CKYW IDN_NR_SVKY NAM_NR_REPU MOD_NR_PGAT MOD_NO_IPRG FLP_NR_MXCS REG_NR_RWRC INS_NR_INPR MOD_NS_GLGC OTP_NR_ASYA} 
+%% # ivcad2020_constrain //
+%% 
+%% ##------------------Don't touch----------------------##
+%% 
+%% # import and elaborate design //
+%% analyze -v2k ../rtl/top.v; ## modify your file name ##
+[-- (VERI-1482)] Analyzing Verilog file '../rtl/top.v'
+[INFO (VERI-1328)] ../rtl/top.v(2): analyzing included file '../rtl/../rtl/VEP.v'
+[INFO (VERI-1328)] ../rtl/top.v(3): analyzing included file '../rtl/../rtl/WSC.v'
+[INFO (VERI-1328)] ../rtl/../rtl/WSC.v(1): analyzing included file '../rtl/../rtl/../rtl/smaller_mux.v'
+[INFO (VERI-1328)] ../rtl/top.v(4): analyzing included file '../rtl/../rtl/controller.v'
+%% elaborate -bbox true -top top; ## modify your top module ##
+INFO (ISW003): Top module name is "top".
+[WARN (VERI-1927)] ../rtl/../rtl/WSC.v(116): port 'out' remains unconnected for this instance
+[INFO (VERI-1018)] ../rtl/top.v(6): compiling module 'top'
+[INFO (VERI-1018)] ../rtl/../rtl/controller.v(1): compiling module 'controller'
+[INFO (VERI-1018)] ../rtl/../rtl/WSC.v(2): compiling module 'WSC'
+[INFO (VERI-1018)] ../rtl/../rtl/../rtl/smaller_mux.v(1): compiling module 'smaller_mux'
+[WARN (VERI-9028)] ../rtl/../rtl/WSC.v(116): missing/open ports on instance smaller_mux1 of module smaller_mux
+[INFO (VERI-1018)] ../rtl/../rtl/VEP.v(35): compiling module 'VEP'
+INFO (INL003): Clearing all state information (assumes, stopats, etc.).
+top
+%% 
+%% # Setup clock and reset
+%% clock clk; ## modify your clock name ##
+%% reset rst; ## modify your reset name ##
+INFO (IPM031): Clearing proof results of all properties.
+INFO (IRS006): Current reset condition is "rst".
+%% 
+%% # Extract checks
+%% check_superlint -extract
+INFO (ISL018): Started extraction of structural checks
+INFO (ISL016): Extracted 1 STRUCTURAL checks.
+INFO (ISL016): Extracted 13 BASIC LINT checks.
+14
+%% 
+[<embedded>] % wc -l ../rtl/top.v
+130 ../rtl/top.v
+[<embedded>] % wc -l ../rtl/VEP.v
+210 ../rtl/VEP.v
+[<embedded>] % wc -l ../rtl/small_mux.v
+/usr/bin/wc: ../rtl/small_mux.v: No such file or directory
+[<embedded>] % wc -l ../rtl/smaller_mux.v
+11 ../rtl/smaller_mux.v
+[<embedded>] % wc -l ../rtl/controller.v
+270 ../rtl/controller.v
+[<embedded>] % wc -l ../rtl/WSC.v
+119 ../rtl/WSC.v
+INFO (IPL005): Received request to exit from the console.
+INFO: Waiting for proof threads to stop...
+INFO: Proof threads stopped.

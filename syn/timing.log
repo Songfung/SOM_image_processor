@@ -1,0 +1,205 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top
+Version: O-2018.06
+Date   : Mon Apr 24 19:48:27 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p72v125c   Library: saed14rvt_ss0p72v125c
+Wire Load Model Mode: top
+
+  Startpoint: RAM_IF_Q[0]
+              (input port clocked by clk)
+  Endpoint: VEPs[44].VEP/weight_save_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                ForQA                 saed14rvt_ss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  input external delay                                    9.50      10.00 f
+  RAM_IF_Q[0] (in)                                        0.56      10.56 f
+  U323/X (SAEDRVT14_BUF_ECO_1)                            0.09      10.64 f
+  U60/X (SAEDRVT14_BUF_ECO_1)                             0.12      10.76 f
+  VEPs[0].VEP/pixel[0] (VEP_63)                           0.00      10.76 f
+  VEPs[0].VEP/U325/X (SAEDRVT14_OA2BB2_V1_1)              0.08      10.84 r
+  VEPs[0].VEP/U329/X (SAEDRVT14_AO221_0P5)                0.04      10.88 r
+  VEPs[0].VEP/U82/X (SAEDRVT14_OAI21_0P5)                 0.05      10.94 f
+  VEPs[0].VEP/U138/X (SAEDRVT14_INV_S_1)                  0.05      10.99 r
+  VEPs[0].VEP/U159/X (SAEDRVT14_AO22_1)                   0.05      11.04 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/B[0] (VEP_63_DW01_add_4)
+                                                          0.00      11.04 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U2/X (SAEDRVT14_INV_S_1)
+                                                          0.02      11.06 f
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U4/X (SAEDRVT14_NR2_MM_1)
+                                                          0.02      11.08 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U1_1/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04      11.12 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U1_2/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04      11.15 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U1_3/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04      11.19 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U1_4/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04      11.23 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U1_5/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.04      11.26 r
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/U1_6/S (SAEDRVT14_ADDF_V1_1)
+                                                          0.06      11.33 f
+  VEPs[0].VEP/add_1_root_add_0_root_add_69_2/SUM[6] (VEP_63_DW01_add_4)
+                                                          0.00      11.33 f
+  VEPs[0].VEP/add_0_root_add_0_root_add_69_2/B[6] (VEP_63_DW01_add_3)
+                                                          0.00      11.33 f
+  VEPs[0].VEP/add_0_root_add_0_root_add_69_2/U1_6/CO (SAEDRVT14_ADDF_V1_1)
+                                                          0.05      11.38 f
+  VEPs[0].VEP/add_0_root_add_0_root_add_69_2/U1_7/S (SAEDRVT14_ADDF_V1_1)
+                                                          0.06      11.44 r
+  VEPs[0].VEP/add_0_root_add_0_root_add_69_2/SUM[7] (VEP_63_DW01_add_3)
+                                                          0.00      11.44 r
+  VEPs[0].VEP/manhattan_distance[7] (VEP_63)              0.00      11.44 r
+  WSC1/VEPs_manhattan_distance[7] (WSC)                   0.00      11.44 r
+  WSC1/mux32[0].smaller_mux32/in_a[7] (smaller_mux_62)
+                                                          0.00      11.44 r
+  WSC1/mux32[0].smaller_mux32/U38/X (SAEDRVT14_OR2_0P5)
+                                                          0.02      11.46 r
+  WSC1/mux32[0].smaller_mux32/U40/X (SAEDRVT14_AO32_1)
+                                                          0.03      11.49 r
+  WSC1/mux32[0].smaller_mux32/U42/X (SAEDRVT14_OAI22_0P5)
+                                                          0.02      11.51 f
+  WSC1/mux32[0].smaller_mux32/U43/X (SAEDRVT14_OAI21_0P5)
+                                                          0.02      11.53 r
+  WSC1/mux32[0].smaller_mux32/U2/X (SAEDRVT14_OAI22_1)
+                                                          0.08      11.61 f
+  WSC1/mux32[0].smaller_mux32/U1/X (SAEDRVT14_INV_S_1)
+                                                          0.11      11.72 r
+  WSC1/mux32[0].smaller_mux32/U13/X (SAEDRVT14_AO22_1)
+                                                          0.06      11.78 r
+  WSC1/mux32[0].smaller_mux32/out[3] (smaller_mux_62)     0.00      11.78 r
+  WSC1/mux16[0].smaller_mux16/in_a[3] (smaller_mux_30)
+                                                          0.00      11.78 r
+  WSC1/mux16[0].smaller_mux16/U21/X (SAEDRVT14_INV_S_1)
+                                                          0.02      11.80 f
+  WSC1/mux16[0].smaller_mux16/U34/X (SAEDRVT14_AN2_1)     0.03      11.83 f
+  WSC1/mux16[0].smaller_mux16/U35/X (SAEDRVT14_OA32_U_0P5)
+                                                          0.03      11.86 f
+  WSC1/mux16[0].smaller_mux16/U37/X (SAEDRVT14_AO221_0P5)
+                                                          0.04      11.90 f
+  WSC1/mux16[0].smaller_mux16/U43/X (SAEDRVT14_OAI21_0P5)
+                                                          0.02      11.92 r
+  WSC1/mux16[0].smaller_mux16/U2/X (SAEDRVT14_OAI22_1)
+                                                          0.08      12.00 f
+  WSC1/mux16[0].smaller_mux16/U1/X (SAEDRVT14_INV_S_1)
+                                                          0.11      12.10 r
+  WSC1/mux16[0].smaller_mux16/U13/X (SAEDRVT14_AO22_1)
+                                                          0.06      12.16 r
+  WSC1/mux16[0].smaller_mux16/out[3] (smaller_mux_30)     0.00      12.16 r
+  WSC1/mux8[0].smaller_mux8/in_a[3] (smaller_mux_14)      0.00      12.16 r
+  WSC1/mux8[0].smaller_mux8/U21/X (SAEDRVT14_INV_S_1)     0.02      12.18 f
+  WSC1/mux8[0].smaller_mux8/U34/X (SAEDRVT14_AN2_1)       0.03      12.21 f
+  WSC1/mux8[0].smaller_mux8/U35/X (SAEDRVT14_OA32_U_0P5)
+                                                          0.03      12.24 f
+  WSC1/mux8[0].smaller_mux8/U37/X (SAEDRVT14_AO221_0P5)
+                                                          0.04      12.28 f
+  WSC1/mux8[0].smaller_mux8/U43/X (SAEDRVT14_OAI21_0P5)
+                                                          0.02      12.30 r
+  WSC1/mux8[0].smaller_mux8/U2/X (SAEDRVT14_OAI22_1)      0.08      12.38 f
+  WSC1/mux8[0].smaller_mux8/U1/X (SAEDRVT14_INV_S_1)      0.11      12.48 r
+  WSC1/mux8[0].smaller_mux8/U13/X (SAEDRVT14_AO22_1)      0.06      12.55 r
+  WSC1/mux8[0].smaller_mux8/out[3] (smaller_mux_14)       0.00      12.55 r
+  WSC1/mux4[0].smaller_mux4/in_a[3] (smaller_mux_6)       0.00      12.55 r
+  WSC1/mux4[0].smaller_mux4/U21/X (SAEDRVT14_INV_S_1)     0.02      12.57 f
+  WSC1/mux4[0].smaller_mux4/U34/X (SAEDRVT14_AN2_1)       0.03      12.59 f
+  WSC1/mux4[0].smaller_mux4/U35/X (SAEDRVT14_OA32_U_0P5)
+                                                          0.03      12.63 f
+  WSC1/mux4[0].smaller_mux4/U37/X (SAEDRVT14_AO221_0P5)
+                                                          0.04      12.66 f
+  WSC1/mux4[0].smaller_mux4/U43/X (SAEDRVT14_OAI21_0P5)
+                                                          0.02      12.68 r
+  WSC1/mux4[0].smaller_mux4/U2/X (SAEDRVT14_OAI22_1)      0.08      12.76 f
+  WSC1/mux4[0].smaller_mux4/U1/X (SAEDRVT14_INV_S_1)      0.11      12.87 r
+  WSC1/mux4[0].smaller_mux4/U13/X (SAEDRVT14_AO22_1)      0.06      12.93 r
+  WSC1/mux4[0].smaller_mux4/out[3] (smaller_mux_6)        0.00      12.93 r
+  WSC1/mux2[0].smaller_mux2/in_a[3] (smaller_mux_2)       0.00      12.93 r
+  WSC1/mux2[0].smaller_mux2/U21/X (SAEDRVT14_INV_S_1)     0.02      12.95 f
+  WSC1/mux2[0].smaller_mux2/U34/X (SAEDRVT14_AN2_1)       0.03      12.97 f
+  WSC1/mux2[0].smaller_mux2/U35/X (SAEDRVT14_OA32_U_0P5)
+                                                          0.03      13.01 f
+  WSC1/mux2[0].smaller_mux2/U37/X (SAEDRVT14_AO221_0P5)
+                                                          0.04      13.04 f
+  WSC1/mux2[0].smaller_mux2/U43/X (SAEDRVT14_OAI21_0P5)
+                                                          0.02      13.06 r
+  WSC1/mux2[0].smaller_mux2/U2/X (SAEDRVT14_OAI22_1)      0.08      13.14 f
+  WSC1/mux2[0].smaller_mux2/U1/X (SAEDRVT14_INV_S_1)      0.11      13.25 r
+  WSC1/mux2[0].smaller_mux2/U13/X (SAEDRVT14_AO22_1)      0.06      13.31 r
+  WSC1/mux2[0].smaller_mux2/out[3] (smaller_mux_2)        0.00      13.31 r
+  WSC1/smaller_mux1/in_a[3] (smaller_mux_0)               0.00      13.31 r
+  WSC1/smaller_mux1/U14/X (SAEDRVT14_INV_S_1)             0.02      13.33 f
+  WSC1/smaller_mux1/U34/X (SAEDRVT14_AN2_1)               0.03      13.36 f
+  WSC1/smaller_mux1/U35/X (SAEDRVT14_OA32_U_0P5)          0.03      13.39 f
+  WSC1/smaller_mux1/U37/X (SAEDRVT14_AO221_0P5)           0.04      13.43 f
+  WSC1/smaller_mux1/U43/X (SAEDRVT14_OAI21_0P5)           0.02      13.44 r
+  WSC1/smaller_mux1/U2/X (SAEDRVT14_OAI22_1)              0.08      13.52 f
+  WSC1/smaller_mux1/U1/X (SAEDRVT14_INV_S_1)              0.11      13.63 r
+  WSC1/smaller_mux1/U29/X (SAEDRVT14_AO22_1)              0.14      13.77 r
+  WSC1/smaller_mux1/out_idx[4] (smaller_mux_0)            0.00      13.77 r
+  WSC1/winner_y[1] (WSC)                                  0.00      13.77 r
+  U173/X (SAEDRVT14_BUF_ECO_1)                            0.08      13.85 r
+  U63/X (SAEDRVT14_BUF_ECO_1)                             0.06      13.91 r
+  VEPs[44].VEP/winner_VEP_y[1] (VEP_19)                   0.00      13.91 r
+  VEPs[44].VEP/U87/X (SAEDRVT14_INV_S_1)                  0.04      13.95 f
+  VEPs[44].VEP/U86/X (SAEDRVT14_INV_S_1)                  0.02      13.97 r
+  VEPs[44].VEP/U208/X (SAEDRVT14_ND2_CDC_0P5)             0.02      13.99 f
+  VEPs[44].VEP/U223/X (SAEDRVT14_AOI21_0P5)               0.02      14.02 r
+  VEPs[44].VEP/U222/X (SAEDRVT14_OAI22_1)                 0.03      14.05 f
+  VEPs[44].VEP/U205/X (SAEDRVT14_INV_S_1)                 0.03      14.08 r
+  VEPs[44].VEP/U125/X (SAEDRVT14_OA22_0P75)               0.03      14.12 r
+  VEPs[44].VEP/U206/X (SAEDRVT14_ND2_CDC_0P5)             0.02      14.14 f
+  VEPs[44].VEP/U123/X (SAEDRVT14_EN3_1)                   0.04      14.18 r
+  VEPs[44].VEP/U92/X (SAEDRVT14_INV_S_1)                  0.02      14.19 f
+  VEPs[44].VEP/U116/X (SAEDRVT14_AOI21_0P5)               0.02      14.21 r
+  VEPs[44].VEP/U113/X (SAEDRVT14_AO21_1)                  0.03      14.24 r
+  VEPs[44].VEP/U112/X (SAEDRVT14_ND3_0P5)                 0.06      14.30 f
+  VEPs[44].VEP/U188/X (SAEDRVT14_MUXI2_U_0P5)             0.06      14.37 r
+  VEPs[44].VEP/U182/X (SAEDRVT14_MUXI2_U_0P5)             0.04      14.41 f
+  VEPs[44].VEP/add_131/B[0] (VEP_19_DW01_add_0)           0.00      14.41 f
+  VEPs[44].VEP/add_131/U1/X (SAEDRVT14_INV_S_1)           0.02      14.43 r
+  VEPs[44].VEP/add_131/U2/X (SAEDRVT14_NR2_MM_1)          0.02      14.45 f
+  VEPs[44].VEP/add_131/U1_1/CO (SAEDRVT14_ADDF_V1_1)      0.04      14.49 f
+  VEPs[44].VEP/add_131/U1_2/CO (SAEDRVT14_ADDF_V1_1)      0.04      14.52 f
+  VEPs[44].VEP/add_131/U1_3/CO (SAEDRVT14_ADDF_V1_1)      0.04      14.56 f
+  VEPs[44].VEP/add_131/U1_4/CO (SAEDRVT14_ADDF_V1_1)      0.04      14.60 f
+  VEPs[44].VEP/add_131/U1_5/CO (SAEDRVT14_ADDF_V1_1)      0.04      14.63 f
+  VEPs[44].VEP/add_131/U1_6/CO (SAEDRVT14_ADDF_V1_1)      0.04      14.67 f
+  VEPs[44].VEP/add_131/U1_7/X (SAEDRVT14_EO3_1)           0.05      14.72 r
+  VEPs[44].VEP/add_131/SUM[7] (VEP_19_DW01_add_0)         0.00      14.72 r
+  VEPs[44].VEP/U253/X (SAEDRVT14_AO22_1)                  0.02      14.74 r
+  VEPs[44].VEP/weight_save_reg[7]/D (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.01      14.75 r
+  data arrival time                                                 14.75
+
+  clock clk (rise edge)                                  19.00      19.00
+  clock network delay (ideal)                             0.50      19.50
+  clock uncertainty                                      -0.10      19.40
+  VEPs[44].VEP/weight_save_reg[7]/CK (SAEDRVT14_FDPRBQ_V2_1)
+                                                          0.00      19.40 r
+  library setup time                                     -0.02      19.38
+  data required time                                                19.38
+  --------------------------------------------------------------------------
+  data required time                                                19.38
+  data arrival time                                                -14.75
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.63
+
+
+1

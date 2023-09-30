@@ -1,0 +1,49 @@
+2023-04-22 22:48:13.881960 (3208) main____ INFO    ----------------------------------------
+2023-04-22 22:48:13.882180 (3208) main____ INFO    JasperGold version info
+2023-04-22 22:48:13.882205 (3208) main____ INFO      tool      : JasperGold 2018.03
+2023-04-22 22:48:13.882227 (3208) main____ INFO      version   : 2018.03p001 64 bits
+2023-04-22 22:48:13.882243 (3208) main____ INFO      build date: 2018.04.24 18:13:05 PDT
+2023-04-22 22:48:13.882255 (3208) main____ INFO    ----------------------------------------
+2023-04-22 22:48:13.882266 (3208) main____ INFO    Runtime info:
+2023-04-22 22:48:13.882279 (3208) main____ INFO      platform  : Linux 3.10.0-693.el7.x86_64 x86_64
+2023-04-22 22:48:13.882296 (3208) main____ INFO      hostname  : vlsicad6
+2023-04-22 22:48:13.882308 (3208) main____ INFO      pid       : 3208
+2023-04-22 22:48:13.882321 (3208) main____ INFO      arguments : '-style' 'windows' '-superlint' 'superlint.tcl'
+2023-04-22 22:48:13.882333 (3208) main____ INFO    ----------------------------------------
+2023-04-22 22:48:13.882343 (3208) main____ INFO    System resource limits info:
+2023-04-22 22:48:13.882356 (3208) main____ INFO      virtual memory: unlimited
+2023-04-22 22:48:13.882369 (3208) main____ INFO      cpu time      : unlimited
+2023-04-22 22:48:13.882394 (3208) main____ INFO      stack size    : 8388608 B
+2023-04-22 22:48:13.882417 (3208) main____ INFO      core file size: 0 B
+2023-04-22 22:48:13.882437 (3208) main____ INFO      open files    : 1024
+2023-04-22 22:48:13.882452 (3208) main____ INFO      file size     : unlimited
+2023-04-22 22:48:13.882464 (3208) main____ INFO    ----------------------------------------
+2023-04-22 22:48:13.882474 (3208) main____ INFO    Memory statistics:
+2023-04-22 22:48:13.882485 (3208) main____ INFO      total physical memory  : 20381228 kB
+2023-04-22 22:48:13.882496 (3208) main____ INFO      free physical memory   : 188036 kB
+2023-04-22 22:48:13.882506 (3208) main____ INFO      committed address space: 51742132 kB
+2023-04-22 22:48:13.882516 (3208) main____ INFO    ----------------------------------------
+2023-04-22 22:48:13.882593 (3208) main____ INFO    Important environment variables:
+2023-04-22 22:48:13.882627 (3208) main____ INFO      DISPLAY        : 'localhost:16.0'
+2023-04-22 22:48:13.882650 (3208) main____ INFO      LM_LICENSE_FILE: '5280@vlsicad8:26000@lscic:1717@lshc:1717@lstn:1717@lstc:1717@lsncku:5280@lstn:26585@lstn:26585@lstc:26585@lshc:26585@lsncku:26585@lscic:'
+2023-04-22 22:48:13.882664 (3208) main____ INFO    ----------------------------------------
+2023-04-22 22:48:13.884098 (3208) lic_core INFO    Initializing license system ...
+2023-04-22 22:48:13.886084 (3208) lic_core INFO    ... license system initialized.
+2023-04-22 22:48:13.888460 (3208) lic__man INFO    Claim 'main' for <ui>.
+2023-04-22 22:48:13.888535 (3208) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2023-04-22 22:48:14.047830 (3208) lic_core INFO    ... (1) checkout succeeded
+2023-04-22 22:48:14.047928 (3208) lic__man INFO    Claim 'superlint' for <ui>.
+2023-04-22 22:48:14.047976 (3208) lic_core INFO    (2) checking out 'jasper_afl' ...
+2023-04-22 22:48:14.152036 (3208) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2023-04-22 22:48:14.152075 (3208) lic_core INFO    (3) checking out 'jasper_dao' ...
+2023-04-22 22:48:14.309469 (3208) lic_core INFO    ... (3) checkout succeeded
+2023-04-22 22:48:15.882577 (3219) main____ INFO    SIGINT received (#1). Trying to interrupt current computation(s).
+2023-04-22 22:48:16.379414 (3208) lic__man INFO    Claim 'superlint' for <ui>.
+2023-04-22 22:48:16.839971 (3208) lic__man INFO    Unclaim 'superlint' for <ui>.
+2023-04-22 22:48:16.840036 (3208) lic__man INFO    Claim 'superlint' for <ui>.
+2023-04-22 22:48:16.854629 (3208) session_ INFO    Starting analysis session with session id 'session_0' ...
+2023-04-22 22:48:16.856558 (3208) session_ INFO    Analysis session with session id 'session_0' started (pid: 3261)
+2023-04-22 22:48:22.129122 (3208) session_ INFO    Analysis session 'session_0' connected to the console (host: 192.168.100.6:41076)
+2023-04-22 22:48:23.383716 (3208) main____ INFO    About to exit: requested from GUI
+2023-04-22 22:48:23.487520 (3208) lic__man INFO    Unclaim everything for 'session_0'.
+2023-04-22 22:48:24.531971 (3208) main____ INFO    Exiting with status 0.

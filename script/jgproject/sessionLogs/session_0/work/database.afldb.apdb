@@ -1,0 +1,2612 @@
+#VERSION#
+1.06
+#SIGNALTUPLE#
+1
+34
+RAM_W_Q
+23
+0
+<obsolete>
+0
+<reference>
+0
+<resetValue>
+
+1
+
+u
+
+#SIGNALTUPLE#
+2
+58
+RAM_PIC_Q
+23
+0
+<obsolete>
+0
+<reference>
+0
+<resetValue>
+
+1
+
+u
+
+#POITUPLE#
+1
+11
+2
+1
+0
+0
+0
+1
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+1
+controller1
+<signalCorrelation-vector>
+0
+0
+0
+1
+1
+0
+0
+0
+../rtl/../rtl/controller.v
+controller1
+20
+47
+124
+124
+#POITUPLE#
+2
+11
+2
+1
+0
+0
+0
+1
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+1
+controller1
+<signalCorrelation-vector>
+0
+0
+0
+1
+2
+0
+0
+0
+../rtl/../rtl/controller.v
+controller1
+19
+46
+243
+243
+#POITUPLE#
+3
+11
+2
+1
+0
+0
+0
+2
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+0
+<signalCorrelation-vector>
+0
+0
+0
+1
+3
+0
+0
+0
+../rtl/../rtl/WSC.v
+WSC1
+14
+16
+43
+43
+#POITUPLE#
+4
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+1
+VEPs[0].VEP
+<signalCorrelation-vector>
+0
+0
+0
+1
+4
+0
+0
+0
+../rtl/../rtl/VEP.v
+VEPs[0].VEP
+33
+71
+113
+113
+#POITUPLE#
+5
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+1
+VEPs[0].VEP
+<signalCorrelation-vector>
+0
+0
+0
+1
+5
+0
+0
+0
+../rtl/../rtl/VEP.v
+VEPs[0].VEP
+33
+69
+114
+114
+#POITUPLE#
+6
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+1
+VEPs[0].VEP
+<signalCorrelation-vector>
+0
+0
+0
+1
+6
+0
+0
+0
+../rtl/../rtl/VEP.v
+VEPs[0].VEP
+33
+67
+115
+115
+#POITUPLE#
+7
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+0
+<signalCorrelation-vector>
+0
+0
+0
+1
+7
+0
+0
+0
+../rtl/../rtl/VEP.v
+VEPs[0].VEP
+19
+34
+141
+141
+#POITUPLE#
+8
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+0
+<signalCorrelation-vector>
+0
+0
+0
+1
+8
+0
+0
+0
+../rtl/../rtl/VEP.v
+VEPs[0].VEP
+19
+34
+142
+142
+#POITUPLE#
+9
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+0
+<signalCorrelation-vector>
+0
+0
+0
+1
+9
+0
+0
+0
+../rtl/../rtl/VEP.v
+VEPs[0].VEP
+19
+34
+143
+143
+#POITUPLE#
+10
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+0
+<signalCorrelation-vector>
+0
+0
+0
+1
+10
+0
+0
+0
+../rtl/top.v
+VEPs[0].VEP
+14
+21
+103
+103
+#POITUPLE#
+11
+11
+2
+1
+0
+0
+0
+3
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+0
+<signalCorrelation-vector>
+0
+0
+0
+1
+11
+0
+0
+0
+../rtl/top.v
+VEPs[0].VEP
+14
+21
+104
+104
+#POITUPLE#
+12
+11
+2
+1
+0
+0
+0
+0
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+
+1
+clock
+1
+1
+1
+19
+1
+top
+<signalCorrelation-vector>
+0
+0
+0
+1
+12
+0
+0
+0
+../rtl/top.v
+
+18
+25
+11
+11
+#POITUPLE#
+13
+11
+2
+1
+0
+0
+0
+0
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+
+1
+clock
+1
+1
+2
+19
+1
+top
+<signalCorrelation-vector>
+0
+0
+0
+1
+13
+0
+0
+0
+../rtl/top.v
+
+18
+27
+12
+12
+#POITUPLE#
+14
+11
+2
+1
+0
+0
+0
+129
+<user-defined>
+0
+<obsolete>
+0
+<userdefined-clocks>
+0
+0
+<clocks>
+1
+clock
+:global_clock
+1
+clock
+1
+0
+19
+1
+WSC1.smaller_mux1
+<signalCorrelation-vector>
+0
+0
+0
+1
+14
+0
+0
+0
+../rtl/../rtl/../rtl/smaller_mux.v
+WSC1.smaller_mux1
+19
+22
+6
+6
+#MESSAGETUPLE#
+0
+1
+1
+ASG_MS_RPAD
+Warning
+"Unequal length operands in assignment in module/design-unit 'controller1'. Length of RHS is less than LHS. LHS 'counter_plus_v2' (unsigned) - 13 bit(s), RHS '{counterY,counterX_add}' (unsigned) - 12 bit(s). RHS will be padded by 1 bit(s)."
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+2
+2
+ASG_MS_RPAD
+Warning
+"Unequal length operands in assignment in module/design-unit 'controller1'. Length of RHS is less than LHS. LHS 'counter_sub_v2' (unsigned) - 13 bit(s), RHS '{counterY,counterX_sub}' (unsigned) - 12 bit(s). RHS will be padded by 1 bit(s)."
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+3
+3
+VAR_NR_INDL
+Warning
+"A variable/signal 'A5' in an RTL description is initialized in its declaration"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+4
+4
+ASG_MS_RPAD
+Warning
+"Unequal length operands in assignment in module/design-unit 'VEPs[0].VEP'. Length of RHS is less than LHS. LHS 'R_diff_sign = (pixel_save[23:16] - weight_save[23:16])' (signed) - 9 bit(s), RHS '(pixel_save[23:16] - weight_save[23:16])' (unsigned) - 8 bit(s). RHS will be padded by 1 bit(s)."
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+5
+5
+ASG_MS_RPAD
+Warning
+"Unequal length operands in assignment in module/design-unit 'VEPs[0].VEP'. Length of RHS is less than LHS. LHS 'G_diff_sign = (pixel_save[15:8] - weight_save[15:8])' (signed) - 9 bit(s), RHS '(pixel_save[15:8] - weight_save[15:8])' (unsigned) - 8 bit(s). RHS will be padded by 1 bit(s)."
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+6
+6
+ASG_MS_RPAD
+Warning
+"Unequal length operands in assignment in module/design-unit 'VEPs[0].VEP'. Length of RHS is less than LHS. LHS 'B_diff_sign = (pixel_save[7:0] - weight_save[7:0])' (signed) - 9 bit(s), RHS '(pixel_save[7:0] - weight_save[7:0])' (unsigned) - 8 bit(s). RHS will be padded by 1 bit(s)."
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+7
+7
+WIR_NO_READ
+Warning
+"Wire 'R_diff_sign_two[8]' defined in module 'VEP' does not drive any object, but is assigned at least once"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+8
+8
+WIR_NO_READ
+Warning
+"Wire 'G_diff_sign_two[8]' defined in module 'VEP' does not drive any object, but is assigned at least once"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+9
+9
+WIR_NO_READ
+Warning
+"Wire 'B_diff_sign_two[8]' defined in module 'VEP' does not drive any object, but is assigned at least once"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+10
+10
+INS_NR_PTEX
+Warning
+"A constant is used in a port expression"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+11
+11
+INS_NR_PTEX
+Warning
+"A constant is used in a port expression"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+12
+12
+INP_NO_USED
+Warning
+"The input/inout port 'RAM_W_Q' defined in the module 'top' is unused (neither read nor assigned)"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+13
+13
+INP_NO_USED
+Warning
+"The input/inout port 'RAM_PIC_Q' defined in the module 'top' is unused (neither read nor assigned)"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MESSAGETUPLE#
+0
+14
+14
+OTP_UC_INST
+Warning
+"Port 'out' (which is being used as an output) of entity/module 'smaller_mux' is being driven inside the design, but not connected (either partially or completely) in its instance 'WSC1.smaller_mux1'"
+0
+<label>
+
+<waivers>
+0
+0
+1
+#MODULETUPLE#
+1
+controller
+1
+1
+#MODULETUPLE#
+2
+WSC
+1
+2
+#MODULETUPLE#
+3
+VEP
+64
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+#MODULETUPLE#
+4
+smaller_mux
+63
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+#INSTANCETUPLE#
+1
+controller1
+1
+#INSTANCETUPLE#
+2
+WSC1
+2
+#INSTANCETUPLE#
+3
+VEPs[0].VEP
+3
+#INSTANCETUPLE#
+4
+VEPs[1].VEP
+3
+#INSTANCETUPLE#
+5
+VEPs[2].VEP
+3
+#INSTANCETUPLE#
+6
+VEPs[3].VEP
+3
+#INSTANCETUPLE#
+7
+VEPs[4].VEP
+3
+#INSTANCETUPLE#
+8
+VEPs[5].VEP
+3
+#INSTANCETUPLE#
+9
+VEPs[6].VEP
+3
+#INSTANCETUPLE#
+10
+VEPs[7].VEP
+3
+#INSTANCETUPLE#
+11
+VEPs[8].VEP
+3
+#INSTANCETUPLE#
+12
+VEPs[9].VEP
+3
+#INSTANCETUPLE#
+13
+VEPs[10].VEP
+3
+#INSTANCETUPLE#
+14
+VEPs[11].VEP
+3
+#INSTANCETUPLE#
+15
+VEPs[12].VEP
+3
+#INSTANCETUPLE#
+16
+VEPs[13].VEP
+3
+#INSTANCETUPLE#
+17
+VEPs[14].VEP
+3
+#INSTANCETUPLE#
+18
+VEPs[15].VEP
+3
+#INSTANCETUPLE#
+19
+VEPs[16].VEP
+3
+#INSTANCETUPLE#
+20
+VEPs[17].VEP
+3
+#INSTANCETUPLE#
+21
+VEPs[18].VEP
+3
+#INSTANCETUPLE#
+22
+VEPs[19].VEP
+3
+#INSTANCETUPLE#
+23
+VEPs[20].VEP
+3
+#INSTANCETUPLE#
+24
+VEPs[21].VEP
+3
+#INSTANCETUPLE#
+25
+VEPs[22].VEP
+3
+#INSTANCETUPLE#
+26
+VEPs[23].VEP
+3
+#INSTANCETUPLE#
+27
+VEPs[24].VEP
+3
+#INSTANCETUPLE#
+28
+VEPs[25].VEP
+3
+#INSTANCETUPLE#
+29
+VEPs[26].VEP
+3
+#INSTANCETUPLE#
+30
+VEPs[27].VEP
+3
+#INSTANCETUPLE#
+31
+VEPs[28].VEP
+3
+#INSTANCETUPLE#
+32
+VEPs[29].VEP
+3
+#INSTANCETUPLE#
+33
+VEPs[30].VEP
+3
+#INSTANCETUPLE#
+34
+VEPs[31].VEP
+3
+#INSTANCETUPLE#
+35
+VEPs[32].VEP
+3
+#INSTANCETUPLE#
+36
+VEPs[33].VEP
+3
+#INSTANCETUPLE#
+37
+VEPs[34].VEP
+3
+#INSTANCETUPLE#
+38
+VEPs[35].VEP
+3
+#INSTANCETUPLE#
+39
+VEPs[36].VEP
+3
+#INSTANCETUPLE#
+40
+VEPs[37].VEP
+3
+#INSTANCETUPLE#
+41
+VEPs[38].VEP
+3
+#INSTANCETUPLE#
+42
+VEPs[39].VEP
+3
+#INSTANCETUPLE#
+43
+VEPs[40].VEP
+3
+#INSTANCETUPLE#
+44
+VEPs[41].VEP
+3
+#INSTANCETUPLE#
+45
+VEPs[42].VEP
+3
+#INSTANCETUPLE#
+46
+VEPs[43].VEP
+3
+#INSTANCETUPLE#
+47
+VEPs[44].VEP
+3
+#INSTANCETUPLE#
+48
+VEPs[45].VEP
+3
+#INSTANCETUPLE#
+49
+VEPs[46].VEP
+3
+#INSTANCETUPLE#
+50
+VEPs[47].VEP
+3
+#INSTANCETUPLE#
+51
+VEPs[48].VEP
+3
+#INSTANCETUPLE#
+52
+VEPs[49].VEP
+3
+#INSTANCETUPLE#
+53
+VEPs[50].VEP
+3
+#INSTANCETUPLE#
+54
+VEPs[51].VEP
+3
+#INSTANCETUPLE#
+55
+VEPs[52].VEP
+3
+#INSTANCETUPLE#
+56
+VEPs[53].VEP
+3
+#INSTANCETUPLE#
+57
+VEPs[54].VEP
+3
+#INSTANCETUPLE#
+58
+VEPs[55].VEP
+3
+#INSTANCETUPLE#
+59
+VEPs[56].VEP
+3
+#INSTANCETUPLE#
+60
+VEPs[57].VEP
+3
+#INSTANCETUPLE#
+61
+VEPs[58].VEP
+3
+#INSTANCETUPLE#
+62
+VEPs[59].VEP
+3
+#INSTANCETUPLE#
+63
+VEPs[60].VEP
+3
+#INSTANCETUPLE#
+64
+VEPs[61].VEP
+3
+#INSTANCETUPLE#
+65
+VEPs[62].VEP
+3
+#INSTANCETUPLE#
+66
+VEPs[63].VEP
+3
+#INSTANCETUPLE#
+67
+WSC1.mux32[0].smaller_mux32
+4
+#INSTANCETUPLE#
+68
+WSC1.mux32[1].smaller_mux32
+4
+#INSTANCETUPLE#
+69
+WSC1.mux32[2].smaller_mux32
+4
+#INSTANCETUPLE#
+70
+WSC1.mux32[3].smaller_mux32
+4
+#INSTANCETUPLE#
+71
+WSC1.mux32[4].smaller_mux32
+4
+#INSTANCETUPLE#
+72
+WSC1.mux32[5].smaller_mux32
+4
+#INSTANCETUPLE#
+73
+WSC1.mux32[6].smaller_mux32
+4
+#INSTANCETUPLE#
+74
+WSC1.mux32[7].smaller_mux32
+4
+#INSTANCETUPLE#
+75
+WSC1.mux32[8].smaller_mux32
+4
+#INSTANCETUPLE#
+76
+WSC1.mux32[9].smaller_mux32
+4
+#INSTANCETUPLE#
+77
+WSC1.mux32[10].smaller_mux32
+4
+#INSTANCETUPLE#
+78
+WSC1.mux32[11].smaller_mux32
+4
+#INSTANCETUPLE#
+79
+WSC1.mux32[12].smaller_mux32
+4
+#INSTANCETUPLE#
+80
+WSC1.mux32[13].smaller_mux32
+4
+#INSTANCETUPLE#
+81
+WSC1.mux32[14].smaller_mux32
+4
+#INSTANCETUPLE#
+82
+WSC1.mux32[15].smaller_mux32
+4
+#INSTANCETUPLE#
+83
+WSC1.mux32[16].smaller_mux32
+4
+#INSTANCETUPLE#
+84
+WSC1.mux32[17].smaller_mux32
+4
+#INSTANCETUPLE#
+85
+WSC1.mux32[18].smaller_mux32
+4
+#INSTANCETUPLE#
+86
+WSC1.mux32[19].smaller_mux32
+4
+#INSTANCETUPLE#
+87
+WSC1.mux32[20].smaller_mux32
+4
+#INSTANCETUPLE#
+88
+WSC1.mux32[21].smaller_mux32
+4
+#INSTANCETUPLE#
+89
+WSC1.mux32[22].smaller_mux32
+4
+#INSTANCETUPLE#
+90
+WSC1.mux32[23].smaller_mux32
+4
+#INSTANCETUPLE#
+91
+WSC1.mux32[24].smaller_mux32
+4
+#INSTANCETUPLE#
+92
+WSC1.mux32[25].smaller_mux32
+4
+#INSTANCETUPLE#
+93
+WSC1.mux32[26].smaller_mux32
+4
+#INSTANCETUPLE#
+94
+WSC1.mux32[27].smaller_mux32
+4
+#INSTANCETUPLE#
+95
+WSC1.mux32[28].smaller_mux32
+4
+#INSTANCETUPLE#
+96
+WSC1.mux32[29].smaller_mux32
+4
+#INSTANCETUPLE#
+97
+WSC1.mux32[30].smaller_mux32
+4
+#INSTANCETUPLE#
+98
+WSC1.mux32[31].smaller_mux32
+4
+#INSTANCETUPLE#
+99
+WSC1.mux16[0].smaller_mux16
+4
+#INSTANCETUPLE#
+100
+WSC1.mux16[1].smaller_mux16
+4
+#INSTANCETUPLE#
+101
+WSC1.mux16[2].smaller_mux16
+4
+#INSTANCETUPLE#
+102
+WSC1.mux16[3].smaller_mux16
+4
+#INSTANCETUPLE#
+103
+WSC1.mux16[4].smaller_mux16
+4
+#INSTANCETUPLE#
+104
+WSC1.mux16[5].smaller_mux16
+4
+#INSTANCETUPLE#
+105
+WSC1.mux16[6].smaller_mux16
+4
+#INSTANCETUPLE#
+106
+WSC1.mux16[7].smaller_mux16
+4
+#INSTANCETUPLE#
+107
+WSC1.mux16[8].smaller_mux16
+4
+#INSTANCETUPLE#
+108
+WSC1.mux16[9].smaller_mux16
+4
+#INSTANCETUPLE#
+109
+WSC1.mux16[10].smaller_mux16
+4
+#INSTANCETUPLE#
+110
+WSC1.mux16[11].smaller_mux16
+4
+#INSTANCETUPLE#
+111
+WSC1.mux16[12].smaller_mux16
+4
+#INSTANCETUPLE#
+112
+WSC1.mux16[13].smaller_mux16
+4
+#INSTANCETUPLE#
+113
+WSC1.mux16[14].smaller_mux16
+4
+#INSTANCETUPLE#
+114
+WSC1.mux16[15].smaller_mux16
+4
+#INSTANCETUPLE#
+115
+WSC1.mux8[0].smaller_mux8
+4
+#INSTANCETUPLE#
+116
+WSC1.mux8[1].smaller_mux8
+4
+#INSTANCETUPLE#
+117
+WSC1.mux8[2].smaller_mux8
+4
+#INSTANCETUPLE#
+118
+WSC1.mux8[3].smaller_mux8
+4
+#INSTANCETUPLE#
+119
+WSC1.mux8[4].smaller_mux8
+4
+#INSTANCETUPLE#
+120
+WSC1.mux8[5].smaller_mux8
+4
+#INSTANCETUPLE#
+121
+WSC1.mux8[6].smaller_mux8
+4
+#INSTANCETUPLE#
+122
+WSC1.mux8[7].smaller_mux8
+4
+#INSTANCETUPLE#
+123
+WSC1.mux4[0].smaller_mux4
+4
+#INSTANCETUPLE#
+124
+WSC1.mux4[1].smaller_mux4
+4
+#INSTANCETUPLE#
+125
+WSC1.mux4[2].smaller_mux4
+4
+#INSTANCETUPLE#
+126
+WSC1.mux4[3].smaller_mux4
+4
+#INSTANCETUPLE#
+127
+WSC1.mux2[0].smaller_mux2
+4
+#INSTANCETUPLE#
+128
+WSC1.mux2[1].smaller_mux2
+4
+#INSTANCETUPLE#
+129
+WSC1.smaller_mux1
+4
+<source-checksums>
+0
+<tag-category>
+0
+<tag-defenition>
+19
+
+23
+
+   module top (clk1,reset,out);
+   input clk1,reset;
+   reg [7:0] count1;
+   output [7:0] out;
+   always @(posedge clk1)begin
+     if(!reset)begin
+       count1 <= 8'b00000000;
+     end
+     else begin
+       if (count1 == 8'b11111110)
+       begin
+          count1 <= 8'b00000000;
+       end
+       else begin
+         count1 = count1+ 8'b00000010;
+       end
+     end
+   end
+   assign out = count1;
+   endmodule
+   In the given example, a violation is reported for count1, in which the signal
+   does not toggle to its original value at any point of time.
+ARY_IS_OOBI
+20
+   A bit/part select reference in an expression has an index specification
+   outside of the defined range of the variable.
+   This can lead to unexpected results. It is
+   recommended that this reference be modified such that the index/subrange
+   falls within the defined range.
+   The following code illustrates the problem.
+   module test1 (a, b, out1);
+   input [3:0] a;
+   input [3:0] b;
+   output out1;
+   wire [3:0] a;
+   reg [2:0] out1;
+   wire [2:-1] q;
+   wire [2:-4] w;
+   always @(a or b)
+       out1 = q[4] & b[3];
+       assign a[3] = out1[3];
+     assign q = w[1+:3];
+   endmodule
+   In the above code, 'q[4]' and 'out1[3]' are used, which are outside the defined range.
+ASG_IS_XRCH
+12
+   A reachable X assignment was detected in the design.
+   If the X assignment is reachable, it will become
+   an active X source. 'X' source present in the design can lead to unexpected functionality.
+
+   The following examples illustrates this problem:
+   always @(port_a or port_b or port_c or port_d)
+   casez(port_d)
+       2'b00: port_e = port_a;
+       2'b01: port_e = port_b;
+       2'b10: port_e = port_c;
+       2'b11: port_e = 4'b00xx;
+   endcase
+BLK_NO_RCHB
+20
+   Unreachable block statement was detected. This needs to be reviewed to determine if this is intentional or undesired. RTL needs to be modified accordingly.
+   The following example illustrates the issue:
+
+   module blkif (out, a, b);
+   input a, b;
+   output out;
+   reg out;
+   wire sel;
+   assign sel = 1'b1;
+   always @(sel or a or b)
+   begin
+   if (sel)
+       out <= a;
+   else
+       out <= b;
+   end
+  endmodule
+  In the given example, a violation is reported as 'sel' has a 
+  a constant value due to which one branch of the 'if' block is not reachable.
+
+BUS_IS_CONT
+8
+   The specified bus has multiple drivers which can
+   be active simultaneously. This may lead to signal/register
+   having undefined/unexpected value.
+
+   The following example illustrates the problem:
+   assign sig_a = var_a;
+   assign sig_a = var_b;
+   In the above example, 'sig_a' is multiply driven.
+BUS_IS_FLOT
+21
+   A bus without any driver was detected. This could be unintentional and can lead to unexpected functionality. 
+
+   Following example illustrates this scenario:
+   module mod_a(port_a, port_b, port_c, reg_a, reg_b, reg_c);
+       input [1:0] port_a, port_b, port_c;
+       output [1:0] reg_a, reg_b, reg_c;
+       reg  [1:0] reg_a;
+       reg  [1:0] reg_b;
+       reg  [1:0] reg_c;
+       wire [1:0] wir_a;
+       wire [1:0] wir_b;
+       wire [1:0] wir_c;
+
+       assign wire_a = port_a;
+       assign reg_a = wir_a;
+       assign reg_b = wir_b;
+
+   endmodule
+
+   reg_b is a floating bus. 
+   Design needs to be remodelled to avoid this problem.
+CAS_IS_DFRC
+31
+   The case statement has a default case which is reachable. This could be a result of an incompletely specified case.
+   The following example illustrates this scenario:
+
+   module FSM (clk, rst);
+   input clk, rst;
+   reg [2:0] state, next;
+   wire en;
+   always @(posedge clk)
+       if (rst)
+           state <= 3'b000;
+       else
+           state <= next;
+   always @(state)
+   begin
+   case(state)
+       3'b000: 
+           next = 3'b001;
+       3'b001: 
+           if (en)
+               next = 3'b010;
+           else
+               next = 3'b011;
+       3'b010: 
+               next = 3'b100;
+       3'b011: 
+               next = 3'b101;
+       default:
+               next = 3'bxxx;
+   endcase
+   end
+   endmodule
+CAS_NO_PRIO
+16
+   The keywords 'unique' and 'priority' indicate the intent that the case statement will have exactly one case item that matches the case expression. However, the specified case statement, qualified with a'priority' keyword, does not have all the cases covered. 
+   The following example illustrates this problem:
+   module mod_a (port_a, port_b, port_c);
+       input [3:0] port_a;
+       input [1:0] port_c;
+       output port_b;
+       reg port_b;
+       always @(port_c)
+       begin
+           priority case(port_c)
+           2'b01 : port_b = port_a[1];
+           2'b10 : port_b = port_a[2];
+           2'b11 : port_b = port_a[3];
+       endcase
+       end
+   endmodule
+CAS_NO_UNIQ
+18
+   The keywords 'unique' and 'priority' indicate the intent that the case statement will have exactly one case item that matches the case expression. However, the specified case statement, qualified with a'unique' keyword, has more than one case item that matches the
+   case expression.
+   The following example illustrates this problem:
+   reg  [3:0]  reg_a;
+   always @(posedge clk)
+   begin
+       reg_a = 12;
+       unique case ( reg_a )
+       6, 12, 14:  out_a = 32'd10012;
+       2, 6, 7:    out_a = 32'd10015;
+       3, 12, 10:  out_a = 32'd50009;
+       default:    out_a = 32'd0;
+   endcase
+   end
+
+   In the above code example, 'reg_a' is used as the case expression in a
+   'unique case' statement, where two of the case item expressions are 12.
+   It is recommended that case item expressions are mutually exclusive.
+EXP_IS_OVFL
+20
+   Arithmetic operation results in overflow of bits leading to potential loss of data.
+   The following example illustrates the problem:
+
+   module mod_a();
+       reg  [1:0] reg_a;
+       reg  [1:0] reg_b;
+       reg  [1:0] reg_c;
+       wire [1:0] wir_a;
+       wire [1:0] wir_b;
+       wire [1:0] wir_c;
+       assign wir_a = reg_a + 2'd2;
+       assign wir_b = reg_b + 2'b11;
+       assign wir_c = reg_c - 2'b11;
+   endmodule
+
+   In the above code, 2-bit wires, wir_a, wir_b, wir_c                
+   are being assigned a value that can be greater than
+   the maximum value that it can hold. This can lead to loss
+   of bits. 
+   Remodel the design to avoid this violation.
+FSM_IS_DLCK
+45
+   A deadlock situation has been detected for a state of the FSM. This can occur if either
+   there is no outgoing edge from the current state or the condition of the outgoing edge
+   cannot be met. To avoid this violation, modify the RTL and rerun the design.
+   Consider the given example:
+   module FSM (din, a_rst, clk, z_o);
+      input  din, a_rst,clk;
+      output z_o;
+      reg z_o;
+      parameter [1:0] s0=0, s1=1, s2=2;
+      reg [1:0] ps, ns;
+      // sequential block
+      always @ (posedge clk or posedge a_rst)
+      begin: seq_block
+         if (a_rst)
+            ps = s0;
+         else
+            ps = ns;
+      end
+
+      // combinational block
+      always @ (ps or din)
+      begin: comb_block
+         ns  = s0;
+         z_o = 1'b1;
+         case (ps)
+           s0: begin
+             z_o = 1'b0;
+              end
+           s1: begin
+                if (din == 1'b0)
+                   ns = s0;
+                else
+                   ns = s2;
+              end
+           s2: begin
+                if (din == 1'b1)
+                   ns = s1;
+                else
+                   ns = s0;
+              end
+         endcase
+      end
+   endmodule
+   In the given example, after reaching s0, the design remains in that state.
+   This means that a deadlock has been reached, and a violation is reported.
+FSM_IS_LLCK
+62
+   Livelock condition detected for the FSM. The states of the processes involved in this
+   condition constantly change with regard to one another but do not progress to some other state.
+   To avoid this violation, modify the RTL and rerun the design.
+   Consider the given example:
+   module FSM (err, ack,req, clk, rst);
+   output err;
+   output [3:0] ack;
+   input [3:0] req;
+   input clk, rst;
+   reg err;
+   reg [3:0] ack;
+   reg [2:0] state, next;
+   integer i;
+   always @(posedge clk)
+      if (rst)
+        state <= 3'b000;
+      else
+        state <= next;
+   always @(state or req)
+   begin
+      next = 3'bxxx;
+      err = 0;
+      ack = 0;
+    case(state)
+           3'b000: begin
+                  case(req)
+                     4'b0001 : next = 3'b001;
+                     default : next = 3'b000;
+                 endcase
+                 end
+           3'b001: begin
+                  case(req)
+                     4'b0010 : next = 3'b010;
+                     default : next = 3'b001;
+                 endcase
+                 ack[0] = 1;
+                 ack[1] = 1;
+               end
+           3'b010: begin
+                  case(req)
+                     4'b0100 : next = 3'b011;
+                 endcase
+                 ack[1] = 1;
+                 ack[2] = 1;
+               end
+           3'b011: begin
+                  case(req)
+                     4'b1000 : next = 3'b100; // missing default statement
+                 endcase
+                 ack[3] = 1;
+               end
+           3'b100: begin
+                  case(req)
+                     4'b0000 : next = 3'b000;
+                     default : next = 3'b100;
+                 endcase
+                 err = 1;
+                 end
+      endcase
+      end
+   endmodule
+   In the given example, a Livelock is detected at state 3'b011 and a violation is reported.
+FSM_NO_MTRN
+36
+   An unreachable consequent transition in a FSM has been detected. There is no 
+   scenario where the mentioned source state will move to the first target state 
+   and then to the next target state in sequence.
+
+   The following example illustrates this scenario:
+
+   module FSM (clk, rst);
+   input clk, rst;
+   reg [2:0] state, next;
+   wire en;
+   always @(posedge clk)
+       if (rst)
+           state <= 2'b00;
+       else
+           state <= next;
+   always @(state)
+   begin
+   case(state)
+          2'b00: 
+            next = 2'b01;
+           2'b01: 
+             if (en)
+                 next = 2'b10;
+             else
+                 next = 2'b11;
+           2'b10: 
+             next = 2'b11;
+           2'b11: 
+             next = 2'b00;
+           default:
+             next = 2'bxx;
+   endcase
+   end
+   endmodule
+
+   In this example, if 'en' is stuck at 1'b0, the transition from 2'b01 to 2'b10 and then to 2'b11 is unreachable.
+FSM_NO_RCHB
+33
+   There are unreachable states in the specified FSM. The unreachable
+   states may create extra states that were not intended.
+   The tool is unable to perform analysis for reachable states if variables
+   are used in the combinational logic for the next state computations
+   and therefore, takes a pessimistic approach.
+
+   params FSMURS { fsm_states_in_default_clause="no/yes" }
+   The default value for this parameter is 'no'.
+   By default, the states that can only be reached from the default clause
+   of the case statement are not considered for next state computations
+   and are reported as unreachable states in the FSM.
+   When the value of the parameter is set to 'yes', the tool
+   considers the states in the default clause of the case statement as
+   reachable.
+
+   The following code illustrates the occurrence of FSMURS
+
+   pro_comb : process (fsm, d)
+   begin
+       case fsm is
+         when State_0 =>
+             z <= '0';
+             next_fsm <= State_1;
+         when State_1 =>
+             z <= '1';
+             next_fsm <= State_0;
+         when State_2 =>
+             z <= d;
+             next_fsm <= State_0;
+       end case;
+   end process pro_comb;
+   In the above code,'State_2' is reported as an unreachable state because
+  there is no path to this state from any other valid state in the FSM.
+FSM_NO_TRRN
+33
+   An unreachable transition in a FSM has been detected. There is no scenario where the mentioned source state will move to the mentioned target state.
+   The following example illustrates this scenario:
+
+   module FSM (clk, rst);
+   input clk, rst;
+   reg [1:0] state, next;
+   wire en;
+   always @(posedge clk)
+      if (rst)
+        state <= 2'b00;
+      else
+        state <= next;
+   always @(state)
+   begin
+   case(state)
+           2'b00: 
+             next = 2'b01;
+           2'b01: 
+               if (en)
+                   next = 2'b10;
+               else
+                   next = 2'b11;
+           2'b10: 
+               next = 2'b11;
+           2'b11: 
+               next = 2'b00;
+           default:
+               next = 2'bxx;
+   endcase
+   end
+   endmodule
+
+   In this example, if 'en' is stuck at 1'b0, the transition from 2'b01 to 2'b10 is unreachable. 
+SIG_IS_DLCK
+46
+   A deadlock situation has been detected for a signal.
+   To avoid this violation, modify the RTL and rerun the design.
+   Consider the given example:
+   
+   module FSM (din, a_rst, clk, z_o);
+     input  din, a_rst,clk;
+     output z_o;
+     reg z_o;
+     parameter [1:0] s0=0, s1=1, s2=2;
+     reg [1:0] ps, ns;
+     // sequential block
+     always @ (posedge clk or posedge a_rst)
+     begin: seq_block
+       if (a_rst)
+          ps = s0;
+       else
+          ps = ns;
+     end
+
+     // combinational block
+     always @ (ps or din)
+     begin: comb_block
+        ns  = s0;
+        z_o = 1'b1;
+        case (ps)
+          s0: begin
+           z_o = 1'b0;
+              end
+          s1: begin
+                if (din == 1'b0)
+                  ns = s0;
+                else
+                  ns = s2;
+              end
+          s2: begin
+                if (din == 1'b1)
+                  ns = s1;
+                else
+                 ns = s0;
+             end
+           endcase
+         end
+    endmodule
+
+   In the given example, after reaching s0, the design remains in that state.
+   This means that a deadlock has been reached, and a violation is reported
+SIG_IS_STCK
+17
+   A logic element stuck at a constant value has been detected. There is no design scenario where the logic element will get any other value. 
+   The following example illustrates this scenario
+
+   module mod_a(clk, rst, port_a, port_b);
+      input clk, rst, port_a;
+      output port_b;
+      reg port_b;
+      always @(posedge clk or negedge rst)
+      begin
+      if (!rst)
+          port_b = 1'b1;
+      else
+          port_b = port_a | 1'b1;
+      end
+   endmodule
+   In this example 'port_b' is always stuck at '1'b1'. 
+   To avoid this violation, modify the RTL.
+SIG_NO_TGFL
+24
+   The signal has not toggled from 1 to 0. Modify the RTL and rerun the design.
+   Consider the given example:
+   module top (clk1,reset,out);
+   input clk1,reset;
+   reg [7:0] count1;
+   output [7:0] out;
+   always @(posedge clk1)begin
+     if(!reset)begin
+       count1 <= 8'b00000000;
+     end
+     else begin
+       if (count1 == 8'b11111110)
+       begin
+          count1 <= 8'b00000000;
+       end
+       else begin
+         count1 = count1+ 8'b00000010;
+       end
+     end
+   end
+   assign out = count1;
+   endmodule
+   In the given example, a violation is reported for count1, in which the signal
+   does not toggle from 1 to 0 at any point of time.
+SIG_NO_TGRS
+25
+   The signal has not toggled from 0 to 1. Modify the RTL and rerun the design.
+   Consider the given example:
+
+   module top (clk1,reset,out);
+   input clk1,reset;
+   reg [7:0] count1;
+   output [7:0] out;
+   always @(posedge clk1)begin
+     if(!reset)begin
+       count1 <= 8'b00000000;
+     end
+     else begin
+       if (count1 == 8'b11111110)
+       begin
+          count1 <= 8'b00000000;
+       end
+       else begin
+         count1 = count1+ 8'b00000010;
+       end
+     end
+   end
+   assign out = count1;
+   endmodule
+   In the given example, a violation is reported for LSB of count1, in which
+   the signal does not toggle from 0 to1 at any point of time.
+<superLintPoiType-tagAndMessage>
+19
+ARITHMETIC_OVERFLOW
+EXP_IS_OVFL
+Arithmetic overflow failure found.
+CONTENTION_BUS
+BUS_IS_CONT
+Contention bus failure found in bus "%1".
+DEAD_CODE
+BLK_NO_RCHB
+The block is not reachable.
+DEFAULT_CASE
+CAS_IS_DFRC
+A reachable default case was found.
+FLOATING_BUS
+BUS_IS_FLOT
+Floating bus failure found in bus "%1".
+FSM_MULTI_TRANS_COVER
+FSM_NO_MTRN
+Unreachable consequence transitions (%d1->%d2->%d3) found in the FSM "%1".
+FSM_STATE_COVER
+FSM_NO_RCHB
+Unreachable states found (%d) in the FSM "%1".
+FSM_STATE_DEADLOCK
+FSM_IS_DLCK
+A deadlock situation was found (%d) for a state of the FSM "%1".
+FSM_STATE_LIVELOCK
+FSM_IS_LLCK
+Livelock condition found (%d) in the FSM "%1".
+FSM_TRANS_COVER
+FSM_NO_TRRN
+Unreachable transitions found (%d1->%d2) in the FSM "%1".
+OUT_OF_BOUND_INDEXING
+ARY_IS_OOBI
+Out-of-bound indexing failure found.
+PRIORITY_CASE
+CAS_NO_PRIO
+Priority case failure found.
+SIGNALS_DEADLOCK_SIGNALS
+SIG_IS_DLCK
+The signal "%1" is a deadlock signal.
+SIGNALS_STUCKAT
+SIG_IS_STCK
+The signal "%1" is stuck-at %s.
+SIGNALS_TOGGLE_FALL
+SIG_NO_TGFL
+The signal "%1" has not toggled from 1 to 0.
+SIGNALS_TOGGLE_RISE
+SIG_NO_TGRS
+The signal "%1" has not toggled from 0 to 1.
+SIGNALS_TOGGLE_STABLE
+SIG_NO_TGST
+The signal "%1" has not toggled stable.
+UNIQUE_CASE
+CAS_NO_UNIQ
+Unique case failure found.
+X_ASSIGNMENT
+ASG_IS_XRCH
+A reachable x-assignment was found.
+<top-model-name>
+top
+<progress-events>
+0
+<alias-tag>
+0
+<tag-mode>
+0
+<property-category-is-enabled>
+0
+<hal-category-is-enabled>
+0
+<candidate-merged-group>
+28
+Warning$msg$../rtl/../rtl/../rtl/smaller_mux.v66
+../rtl/../rtl/../rtl/smaller_mux.v
+6
+6
+
+Warning
+3
+1
+14
+Warning$msg$../rtl/../rtl/VEP.v113113
+../rtl/../rtl/VEP.v
+113
+113
+
+Warning
+3
+1
+4
+Warning$msg$../rtl/../rtl/VEP.v114114
+../rtl/../rtl/VEP.v
+114
+114
+
+Warning
+3
+1
+5
+Warning$msg$../rtl/../rtl/VEP.v115115
+../rtl/../rtl/VEP.v
+115
+115
+
+Warning
+3
+1
+6
+Warning$msg$../rtl/../rtl/VEP.v141141
+../rtl/../rtl/VEP.v
+141
+141
+
+Warning
+3
+1
+7
+Warning$msg$../rtl/../rtl/VEP.v142142
+../rtl/../rtl/VEP.v
+142
+142
+
+Warning
+3
+1
+8
+Warning$msg$../rtl/../rtl/VEP.v143143
+../rtl/../rtl/VEP.v
+143
+143
+
+Warning
+3
+1
+9
+Warning$msg$../rtl/../rtl/WSC.v4343
+../rtl/../rtl/WSC.v
+43
+43
+
+Warning
+3
+1
+3
+Warning$msg$../rtl/../rtl/controller.v124124
+../rtl/../rtl/controller.v
+124
+124
+
+Warning
+3
+1
+1
+Warning$msg$../rtl/../rtl/controller.v243243
+../rtl/../rtl/controller.v
+243
+243
+
+Warning
+3
+1
+2
+Warning$msg$../rtl/top.v1111
+../rtl/top.v
+11
+11
+
+Warning
+3
+1
+12
+Warning$msg$../rtl/top.v1212
+../rtl/top.v
+12
+12
+
+Warning
+3
+1
+13
+Warning$msg$../rtl/top.v103103
+../rtl/top.v
+103
+103
+
+Warning
+3
+1
+10
+Warning$msg$../rtl/top.v104104
+../rtl/top.v
+104
+104
+
+Warning
+3
+1
+11
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/VEP.v113113
+../rtl/../rtl/VEP.v
+113
+113
+ASG_MS_RPAD
+Warning
+1
+1
+4
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/VEP.v114114
+../rtl/../rtl/VEP.v
+114
+114
+ASG_MS_RPAD
+Warning
+1
+1
+5
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/VEP.v115115
+../rtl/../rtl/VEP.v
+115
+115
+ASG_MS_RPAD
+Warning
+1
+1
+6
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/controller.v124124
+../rtl/../rtl/controller.v
+124
+124
+ASG_MS_RPAD
+Warning
+1
+1
+1
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/controller.v243243
+../rtl/../rtl/controller.v
+243
+243
+ASG_MS_RPAD
+Warning
+1
+1
+2
+Warning$msg$INP_NO_USED../rtl/top.v1111
+../rtl/top.v
+11
+11
+INP_NO_USED
+Warning
+1
+1
+12
+Warning$msg$INP_NO_USED../rtl/top.v1212
+../rtl/top.v
+12
+12
+INP_NO_USED
+Warning
+1
+1
+13
+Warning$msg$INS_NR_PTEX../rtl/top.v103103
+../rtl/top.v
+103
+103
+INS_NR_PTEX
+Warning
+1
+1
+10
+Warning$msg$INS_NR_PTEX../rtl/top.v104104
+../rtl/top.v
+104
+104
+INS_NR_PTEX
+Warning
+1
+1
+11
+Warning$msg$OTP_UC_INST../rtl/../rtl/../rtl/smaller_mux.v66
+../rtl/../rtl/../rtl/smaller_mux.v
+6
+6
+OTP_UC_INST
+Warning
+1
+1
+14
+Warning$msg$VAR_NR_INDL../rtl/../rtl/WSC.v4343
+../rtl/../rtl/WSC.v
+43
+43
+VAR_NR_INDL
+Warning
+1
+1
+3
+Warning$msg$WIR_NO_READ../rtl/../rtl/VEP.v141141
+../rtl/../rtl/VEP.v
+141
+141
+WIR_NO_READ
+Warning
+1
+1
+7
+Warning$msg$WIR_NO_READ../rtl/../rtl/VEP.v142142
+../rtl/../rtl/VEP.v
+142
+142
+WIR_NO_READ
+Warning
+1
+1
+8
+Warning$msg$WIR_NO_READ../rtl/../rtl/VEP.v143143
+../rtl/../rtl/VEP.v
+143
+143
+WIR_NO_READ
+Warning
+1
+1
+9
+<id-to-merged-signature>
+28
+1
+1
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/controller.v124124
+../rtl/../rtl/controller.v
+124
+124
+ASG_MS_RPAD
+Warning
+1
+1
+3
+Warning$msg$../rtl/../rtl/controller.v124124
+../rtl/../rtl/controller.v
+124
+124
+
+Warning
+3
+2
+1
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/controller.v243243
+../rtl/../rtl/controller.v
+243
+243
+ASG_MS_RPAD
+Warning
+1
+2
+3
+Warning$msg$../rtl/../rtl/controller.v243243
+../rtl/../rtl/controller.v
+243
+243
+
+Warning
+3
+3
+1
+Warning$msg$VAR_NR_INDL../rtl/../rtl/WSC.v4343
+../rtl/../rtl/WSC.v
+43
+43
+VAR_NR_INDL
+Warning
+1
+3
+3
+Warning$msg$../rtl/../rtl/WSC.v4343
+../rtl/../rtl/WSC.v
+43
+43
+
+Warning
+3
+4
+1
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/VEP.v113113
+../rtl/../rtl/VEP.v
+113
+113
+ASG_MS_RPAD
+Warning
+1
+4
+3
+Warning$msg$../rtl/../rtl/VEP.v113113
+../rtl/../rtl/VEP.v
+113
+113
+
+Warning
+3
+5
+1
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/VEP.v114114
+../rtl/../rtl/VEP.v
+114
+114
+ASG_MS_RPAD
+Warning
+1
+5
+3
+Warning$msg$../rtl/../rtl/VEP.v114114
+../rtl/../rtl/VEP.v
+114
+114
+
+Warning
+3
+6
+1
+Warning$msg$ASG_MS_RPAD../rtl/../rtl/VEP.v115115
+../rtl/../rtl/VEP.v
+115
+115
+ASG_MS_RPAD
+Warning
+1
+6
+3
+Warning$msg$../rtl/../rtl/VEP.v115115
+../rtl/../rtl/VEP.v
+115
+115
+
+Warning
+3
+7
+1
+Warning$msg$WIR_NO_READ../rtl/../rtl/VEP.v141141
+../rtl/../rtl/VEP.v
+141
+141
+WIR_NO_READ
+Warning
+1
+7
+3
+Warning$msg$../rtl/../rtl/VEP.v141141
+../rtl/../rtl/VEP.v
+141
+141
+
+Warning
+3
+8
+1
+Warning$msg$WIR_NO_READ../rtl/../rtl/VEP.v142142
+../rtl/../rtl/VEP.v
+142
+142
+WIR_NO_READ
+Warning
+1
+8
+3
+Warning$msg$../rtl/../rtl/VEP.v142142
+../rtl/../rtl/VEP.v
+142
+142
+
+Warning
+3
+9
+1
+Warning$msg$WIR_NO_READ../rtl/../rtl/VEP.v143143
+../rtl/../rtl/VEP.v
+143
+143
+WIR_NO_READ
+Warning
+1
+9
+3
+Warning$msg$../rtl/../rtl/VEP.v143143
+../rtl/../rtl/VEP.v
+143
+143
+
+Warning
+3
+10
+1
+Warning$msg$INS_NR_PTEX../rtl/top.v103103
+../rtl/top.v
+103
+103
+INS_NR_PTEX
+Warning
+1
+10
+3
+Warning$msg$../rtl/top.v103103
+../rtl/top.v
+103
+103
+
+Warning
+3
+11
+1
+Warning$msg$INS_NR_PTEX../rtl/top.v104104
+../rtl/top.v
+104
+104
+INS_NR_PTEX
+Warning
+1
+11
+3
+Warning$msg$../rtl/top.v104104
+../rtl/top.v
+104
+104
+
+Warning
+3
+12
+1
+Warning$msg$INP_NO_USED../rtl/top.v1111
+../rtl/top.v
+11
+11
+INP_NO_USED
+Warning
+1
+12
+3
+Warning$msg$../rtl/top.v1111
+../rtl/top.v
+11
+11
+
+Warning
+3
+13
+1
+Warning$msg$INP_NO_USED../rtl/top.v1212
+../rtl/top.v
+12
+12
+INP_NO_USED
+Warning
+1
+13
+3
+Warning$msg$../rtl/top.v1212
+../rtl/top.v
+12
+12
+
+Warning
+3
+14
+1
+Warning$msg$OTP_UC_INST../rtl/../rtl/../rtl/smaller_mux.v66
+../rtl/../rtl/../rtl/smaller_mux.v
+6
+6
+OTP_UC_INST
+Warning
+1
+14
+3
+Warning$msg$../rtl/../rtl/../rtl/smaller_mux.v66
+../rtl/../rtl/../rtl/smaller_mux.v
+6
+6
+
+Warning
+3
+<propertyId-to-fsmInfo>
+0
+<fsmName-to-idleState>
+0
